@@ -1,0 +1,10 @@
+# MCUX GPIO configuration options
+
+# Copyright (c) 2016 Freescale Semiconductor, Inc.
+# Copyright (c) 2017, NXP
+# SPDX-License-Identifier: Apache-2.0
+
+config GPIO_MCUX
+	bool "MCUX GPIO driver"
+	help
+	  Enable the MCUX pinmux driver.
